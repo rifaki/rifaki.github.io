@@ -35,6 +35,39 @@
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
 
+    <!-- Custom CSS to manage mobile layout -->
+    <style>
+      /* Default styles for larger screens */
+      .navbar .toggle-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      /* Media query for mobile screens */
+      @media (max-width: 576px) {
+        .navbar-brand.social, 
+        .toggle-container {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+        }
+
+        .navbar-brand.social {
+          margin-bottom: 10px;
+        }
+
+        .navbar .toggle-container {
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+
+        .navbar .toggle-container a {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+
   </head>
 
   <!-- Body -->
@@ -52,15 +85,12 @@
             <a href="https://www.linkedin.com/in/mrifaki" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
           </div>
 
-          <!-- Remove Navbar Toggle and just show the toggle theme button -->
-          <div class="ml-auto d-flex align-items-center">
-            <!-- Toggle theme mode (visible on mobile and desktop) -->
-            <div class="toggle-container">
-              <a id="light-toggle">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-              </a>
-            </div>
+          <!-- Dark mode toggle - This is now inline with the social icons for mobile -->
+          <div class="toggle-container">
+            <a id="light-toggle">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </a>
           </div>
 
         </div>
