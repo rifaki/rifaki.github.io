@@ -29,13 +29,13 @@
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
               <li class="nav-item ">
-                <a class="nav-link" href="/">about</a>
+                <a class="nav-link" href="/">About</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/blog/">blog</a>
+                <a class="nav-link" href="/Blog/">Blog</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+                <a class="nav-link" href="/Projects/">Projects</a>
               </li>
               <div class="toggle-container">
                 <a id="light-toggle">
