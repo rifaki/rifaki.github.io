@@ -1,136 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Enhanced metadata -->
+    <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mouhssine Rifaki | Applied Mathematics & Machine Learning</title>
-    <meta name="description" content="Personal website of Mouhssine Rifaki - Applied Mathematics and Machine Learning researcher at Paris Dauphine-PSL">
+    <title>Mouhssine Rifaki | Applied Mathematics & ML</title>
+    <meta name="description" content="Applied Mathematics and Machine Learning researcher at Paris Dauphine-PSL">
     <meta name="author" content="Mouhssine Rifaki">
-    <meta name="keywords" content="applied mathematics, machine learning, finance, optimization, Paris Dauphine-PSL, portfolio management">
-    
-    <!-- Open Graph metadata for better social sharing -->
-    <meta property="og:title" content="Mouhssine Rifaki | Applied Mathematics & Machine Learning">
+    <meta name="keywords" content="applied mathematics, machine learning, finance, optimization, Paris Dauphine-PSL">
+
+    <!-- Your existing CSS imports - keeping these exactly as they were -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons - keeping your existing setup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="none" id="highlight_theme_light" />
+
+    <!-- Your existing styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://rifaki.github.io/">
+
+    <!-- Dark Mode - keeping your existing setup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+
+    <!-- Your existing scripts -->
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+
+    <!-- Simple SEO enhancement -->
+    <meta property="og:title" content="Mouhssine Rifaki | Applied Mathematics & ML">
     <meta property="og:description" content="Applied Mathematics and Machine Learning researcher focusing on financial modeling and optimization">
     <meta property="og:image" content="/assets/img/prof_pic.png">
     <meta property="og:url" content="https://rifaki.github.io/">
-    <meta property="og:type" content="website">
-    
-    <!-- Twitter Card metadata -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Mouhssine Rifaki">
-    <meta name="twitter:description" content="Applied Mathematics and Machine Learning researcher at Paris Dauphine-PSL">
-    <meta name="twitter:image" content="/assets/img/prof_pic.png">
-    
-    <!-- Preload critical assets -->
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" as="style">
-    <link rel="preload" href="/assets/img/prof_pic.png" as="image">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-    
-    <!-- Security headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline';">
-    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-    
-    <!-- Existing CSS imports with SRI hashes -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
-    
-    <!-- Defer non-critical CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-    <!-- Existing styles -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://rifaki.github.io/">
-    
-    <!-- Schema.org markup for better SEO -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Mouhssine Rifaki",
-      "url": "https://rifaki.github.io",
-      "image": "/assets/img/prof_pic.png",
-      "sameAs": [
-        "https://www.linkedin.com/in/mrifaki"
-      ],
-      "jobTitle": "Graduate Student",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Paris Dauphine-PSL"
-      },
-      "alumniOf": {
-        "@type": "Organization",
-        "name": "Sorbonne Paris Nord University"
-      }
-    }
-    </script>
-
-    <!-- Optimized dark mode implementation -->
-    <script>
-      // Check for saved dark mode preference or system preference
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-      const storedTheme = localStorage.getItem('theme');
-      
-      if (storedTheme === 'dark' || (!storedTheme && prefersDark.matches)) {
-        document.documentElement.classList.add('dark');
-      }
-      
-      // Listen for system dark mode changes
-      prefersDark.addListener((e) => {
-        if (!localStorage.getItem('theme')) {
-          if (e.matches) {
-            document.documentElement.classList.add('dark');
-          } else {
-            document.documentElement.classList.remove('dark');
-          }
-        }
-      });
-    </script>
   </head>
 
+  <!-- Body - keeping your existing structure -->
   <body class="fixed-top-nav">
-    <!-- Existing body content remains the same -->
-    
-    <!-- Optimize script loading -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-DfXdzD6F9s0g1H4f6frz4J13D41TP+XGQLqQFwhVV0M=" crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-MA5g3XhF4+ciE1H2Fg2w8cUG9/1F9SHHnVfOAPgMmG4=" crossorigin="anonymous" defer></script>
-    
-    <!-- Add service worker registration -->
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').then(registration => {
-            console.log('ServiceWorker registration successful');
-          }).catch(err => {
-            console.log('ServiceWorker registration failed: ', err);
-          });
-        });
-      }
-    </script>
-    
-    <!-- Add basic analytics -->
-    <script async>
-      function sendPageView() {
-        if (navigator.sendBeacon) {
-          navigator.sendBeacon('/analytics', JSON.stringify({
-            page: window.location.pathname,
-            referrer: document.referrer,
-            timestamp: new Date().toISOString()
-          }));
-        }
-      }
-      window.addEventListener('load', sendPageView);
-      document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState === 'hidden') {
-          sendPageView();
-        }
-      });
-    </script>
+    <!-- Header -->
+    <header>
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <!-- Social Icons -->
+          <div class="navbar-brand social">
+            <a href="mailto:mouhssine.rifaki@dauphine.eu" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/mrifaki" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          </div>
+
+          <!-- Theme toggle -->
+          <div class="ml-auto d-flex align-items-center">
+            <div class="toggle-container">
+              <a id="light-toggle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <div class="post">
+        <article>
+          <div class="profile float-right">
+            <figure>
+              <picture>
+                <img class="img-fluid z-dept-1 rounded" src="/assets/img/prof_pic.png" alt="Mouhssine Rifaki">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="clearfix">
+            <p>Hello! I'm <b>Mouhssine Rifaki</b>. I bridge mathematical theory with practical applications in ML and finance. Currently at Paris Dauphine-PSL pursuing my Master's in Applied Mathematics.</p>
+
+            <p>My path combines mathematical rigor with a strategic focus on ML applications. Beyond the theory, I've built Alfiny, turning quantitative insights into practical portfolio management solutions.</p>
+
+            <p>If you're working on complex problems at the intersection of mathematics, ML, and finance, let's connect. I'm particularly drawn to projects where theoretical depth creates practical impact.</p>
+
+            <ul>
+              <li>Some of my ongoing projects:
+                <ul>
+                  <li>Advanced ML applications in financial modeling.</li>
+                  <li>Mathematical optimization for trading strategies.</li>
+                  <li>Large-scale system automation.</li>
+                </ul>
+              </li>
+            </ul>
+
+            <p>If you have an interesting project at the intersection of mathematics, machine learning, and finance, or if you'd like a copy of my CV, feel free to reach out to me via email or LinkedIn by clicking on either of the icons above.</p>
+          </div>
+
+          <!-- News -->
+          <div class="news">
+            <h2>What's New ?</h2>
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless">
+                <tr>
+                  <th scope="row">2024</th>
+                  <td>Started a research internship at LAMSADE (Paris Dauphine University - PSL).</td>
+                </tr>
+                <tr>
+                  <th scope="row">2024</th>
+                  <td>Joined London Business School as a research assistant.</td>
+                </tr>
+                <tr>
+                  <th scope="row">2023</th>
+                  <td>Finalized three research projects (contact me if you want a copy of those projects).</td>
+                </tr>
+                <tr>
+                  <th scope="row">2023</th>
+                  <td>Graduated with a Bachelor of Science in Economics from Sorbonne Paris Nord University.</td>
+                </tr>
+                <tr>
+                  <th scope="row">2020</th>
+                  <td>Founded Alfiny during my freshman year of college.</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-DfXdzD6F9s0g1H4f6frz4J13D41TP+XGQLqQFwhVV0M=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-MA5g3XhF4+ciE1H2Fg2w8cUG9/1F9SHHnVfOAPgMmG4=" crossorigin="anonymous"></script>
   </body>
 </html>
